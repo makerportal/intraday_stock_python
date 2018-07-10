@@ -70,6 +70,7 @@ def plotter(ticker,names,data):
                 hoverinfo='text')
 
     layout = go.Layout(
+        title='Open-High-Low-Close Plot for '+ticker,
         xaxis = dict(
             rangeslider = dict(
                 visible = False
@@ -83,11 +84,11 @@ def plotter(ticker,names,data):
     data = [trace]
 
     fig = go.Figure(data=data, layout=layout)
-    py.plot(fig, filename='OHLC Test')
+    py.plot(fig, filename='High Frequency_'+ticker)
 
-ticker = 'NFLX'
-period = 86400
-days = 10
+ticker = 'MSFT'
+period = 60
+days = 5
 exchange = 'NASD'
 
 url,data,names = numpy_stock(exchange,ticker,period,days)
