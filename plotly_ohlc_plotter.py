@@ -84,9 +84,9 @@ def plotter(ticker,names,data):
     data = [trace]
 
     fig = go.Figure(data=data, layout=layout)
-    py.plot(fig, filename='High Frequency_'+ticker)
+    py.plot(fig, filename='OHLC_'+ticker)
 
-ticker = 'MSFT'
+ticker = 'NFLX'
 period = 60
 days = 5
 exchange = 'NASD'
