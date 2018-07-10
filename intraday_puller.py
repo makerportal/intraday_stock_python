@@ -32,9 +32,9 @@ def numpy_stock(exchange,ticker,interval,days):
                         data[ii].extend([np.double(row[ii])])
     return url,data,column_names
 
-ticker = 'NFLX'
-period = 60
-days = 10
-exchange = 'NASD'
+ticker = 'NFLX' # example ticker (Netflix)
+period = 60 # data every 60 seconds
+days = 10 # 10 days worth of data
+exchange = 'NASD' # NASDAQ exchange
 
 url,data,names = numpy_stock(exchange,ticker,period,days)
