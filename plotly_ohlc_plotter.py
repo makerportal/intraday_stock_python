@@ -54,6 +54,7 @@ def plotter(ticker,names,data):
     for kk in range(len(data[0])):
         hovertext.append(ticker+\
                          '<br>'+str(data[0][kk])+\
+                         '<br>----------------------------'+\
                          '<br>Open: '+str(data_open[kk])+\
                          '<br>Close: '+str(data_close[kk])+\
                          '<br>High: '+str(data_high[kk])+\
@@ -73,6 +74,9 @@ def plotter(ticker,names,data):
             rangeslider = dict(
                 visible = False
             )
+        ),
+        yaxis=dict(
+            title='U.S. Dollar'
         )
     )
 
