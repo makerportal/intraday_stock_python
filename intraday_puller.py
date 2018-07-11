@@ -1,5 +1,4 @@
 import csv,datetime,requests,time
-import matplotlib.pyplot as plt
 import numpy as np
 
 def numpy_stock(exchange,ticker,interval,days):
