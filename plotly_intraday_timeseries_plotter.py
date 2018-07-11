@@ -1,5 +1,4 @@
 import csv,datetime,requests,time
-import matplotlib.pyplot as plt
 import numpy as np
 import plotly.plotly as py
 import plotly.graph_objs as go
