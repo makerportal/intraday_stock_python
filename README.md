@@ -16,3 +16,7 @@ p=10d - The 'p' denotes amount of days
 x=NASD - The 'x' denotes selection of stock exchange
 
 f=d,o,h,l,c,v - The 'f' denotes the desired data (d ≡ date, o ≡ open price, h ≡ high, l ≡ low, c ≡ close, v ≡ volume)
+
+---
+
+Part of the [Maker Portal](https://makerportal.ai) open-source scientific computing and hardware ecosystem. Explore interactive calculators and engineering tools at [makerportal.ai](https://makerportal.ai).
